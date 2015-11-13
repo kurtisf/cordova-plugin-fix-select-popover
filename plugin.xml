@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-fix-select-popover"
+        version="1.0">
+
+    <name>Fix Select Popover</name>
+
+    <description>
+      This is a simple Cordova plugin that fixes race conditions with HTML select controls
+	on iPad that present popovers.
+    </description>
+
+    <license>MIT</license>
+
+    <!-- iOS Configuration -->
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="FixSelectPopover">
+                <param name="ios-package" value="CDVFixSelectPopover" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/CDVFixSelectPopover.m" />
+
+    </platform>
+
+</plugin>

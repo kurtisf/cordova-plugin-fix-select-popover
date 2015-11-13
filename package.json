@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-fix-select-popover",
+  "version": "1.0.0",
+  "description": "Cordova plugin for fixing iPad HTML select popover crashes.",
+  "cordova": {
+    "id": "cordova-plugin-fix-select-popover",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurtisf/cordova-plugin-fix-select-popover"
+  },
+  "keywords": [
+    "cordova",
+    "select",
+    "popover",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT"
+}
